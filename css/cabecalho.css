@@ -1,0 +1,6 @@
+@media screen and (width: 375px){    
+    .cabecalho {
+        height: 50rem;
+        background-image: linear-gradient(var(--gradient1), var(--gradient2));
+    }
+}
