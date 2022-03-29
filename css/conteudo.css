@@ -13,11 +13,45 @@
 
 .editor__title{
     margin: 3rem 0;
+    font-weight: 600;
     color: var(--very-dark-blue)
 }
 
-.editor__illustration{
+.editor__illustration--img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.introduction__title {
+    margin: 1rem 4rem;
+    font-weight: 500;
+    color: var(--very-dark-blue);
+}
+
+.introduction__text{
+    margin: 0 2.5rem;
+    line-height: 1.5rem;
+    color: var(--very-dark-blue);
+}
+
+.description__title {
+    margin: 1rem 4rem;
+    font-weight: 500;
+    color: var(--very-dark-blue);
+}
+
+.description__text{
+    margin: 0 2.5rem;
+    line-height: 1.5rem;
+    color: var(--very-dark-blue);
+}
+
+.sobre {
     width: 100%;
     height: auto;
 }
 
+.sobre__card--cell{
+    width: 100%;
+}
