@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(var(--glightred), var(--gdarkred));
+    background: url(../images/bg-pattern-intro-mobile.svg), linear-gradient(var(--glightred), var(--gdarkred));
 }
 
 .cabecalho__header{
