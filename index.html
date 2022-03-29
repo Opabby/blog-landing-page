@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Blogr</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/conteudo.css">
   </head>
   <body>
     <header class="cabecalho">
-      <div class="cabecalho__logo">
-        <img class="cabecalho__logo--img" src="./images/logo.svg">
-      </div>
-      <div class="cabecalho__menu">
-        <img class="cabecalho__menu--icon" src="./images/icon-hamburger.svg">
-      </div>
-      <div cabecalho__textos>
-        <h1 class="cabecalho__textos--titulo">A modern publishing platform</h1>
-        <p class="cabecalho__textos--definition">Grow your audience and build your online brand</p>
-      </div>
-      <div class="cabecalho__buttons">
-        <label></label>
-        <button class="cabecalho__buttons--start">Start for Free</button>
-        <label></label>
-        <button class="cabecalho__buttons--learn">Learn more</button>
-      </div>
+      <section class="cabecalho__background--img">
+        <div class="cabecalho__header">
+            <img class="cabecalho__logo--img" src="./images/logo.svg">
+            <img class="cabecalho__menu--icon" src="./images/icon-hamburger.svg">
+        </div>
+        <div class="cabecalho__textos">
+          <h1 class="cabecalho__textos--titulo">A modern publishing platform</h1>
+          <p class="cabecalho__textos--definition">Grow your audience and build your online brand</p>
+        </div>
+        <div class="cabecalho__buttons">
+          <label></label>
+          <button class="cabecalho__buttons--start">Start for Free</button>
+          <label></label>
+          <button class="cabecalho__buttons--learn">Learn More</button>
+        </div>
+      </section>
     </header>
     <main class="conteudo">
       <section class="editor">
@@ -44,7 +46,6 @@
       <section class="sobre">
         <div class="sobre__azul">
           <img class="sobre__card--cellimg" src="./images/illustration-phones.svg">
-          <img class="sobre__card--circ" src="./images/bg-pattern-circles.svg">
           <h1 class="sobre__card--title">State of the Art Infrastructure</h1>
           <p class="sobre__card--text">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
         </div>

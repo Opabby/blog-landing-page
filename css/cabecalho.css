@@ -1,6 +1,64 @@
-@media screen and (width: 375px){    
-    .cabecalho {
-        height: 50rem;
-        background-image: linear-gradient(var(--gradient1), var(--gradient2));
-    }
+.cabecalho{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(/images/bg-pattern-intro-mobile.svg), linear-gradient(var(--glightred), var(--gdarkred));
+}
+
+.cabecalho__header{
+    margin: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo--img{
+    width: 5rem;
+}
+
+.cabecalho__textos{
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white-text);
+}
+
+.cabecalho__textos--titulo{
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.cabecalho__textos--description{
+    margin-top: .5rem;
+}
+
+.cabecalho__buttons{
+    margin: 2rem 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__buttons--start{
+    padding: .75rem 1rem;
+    border-radius: 25px;
+    width: 8rem;
+    background: transparent;
+    border: 1px solid var(--white-text);
+    color: var(--white-text);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cabecalho__buttons--learn{
+    padding: .75rem 1rem;
+    border-radius: 25px;
+    width: 8rem;
+    background: transparent;
+    border: 1px solid var(--white-text);
+    color: var(--white-text);
+    font-weight: 600;
+    font-size: 14px;
 }
