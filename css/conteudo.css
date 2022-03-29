@@ -54,4 +54,65 @@
 
 .sobre__card--cell{
     width: 100%;
+    margin-bottom: -13rem;
+}
+
+.sobre__card--azul{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    height: auto;
+    background: url(../images/bg-pattern-circles.svg), var(--very-dark-gray-blue);
+    background-size: 150%;
+    background-position: 50% -100%;
+    background-repeat: no-repeat;;
+    color: var(--white-text);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.sobre__card--title {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0 2rem;
+    margin-top: 6rem;
+}
+
+.sobre__card--text{
+    line-height: 1.5rem;
+    margin: 2rem 2rem;
+    font-size: 1.15rem;
+    margin-bottom: 6rem;
+}
+
+.sobre__computer--img{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.sobre__desc1--title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--very-dark-blue);
+}
+
+.sobre__desc1--text {
+    line-height: 1.5rem;
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+    color: var(--very-dark-blue);
+}
+
+.sobre__desc2--title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--very-dark-blue);
+}
+
+.sobre__desc2--text {
+    line-height: 1.5rem;
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+    color: var(--very-dark-blue);
 }
