@@ -1,0 +1,37 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--very-dark-gray-blue);
+    text-align: center;
+    border-top-right-radius: 100px;
+    font-family: var(--overpass);
+    color: var(--white-text);
+}
+
+.rodape__logo{
+    margin: 5rem 0;
+}
+
+.lista {
+    margin: 2rem 0;
+}
+
+.lista__title {
+    margin-bottom: 2rem;
+}
+
+.lista__prod--item{
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+.lista__comp--item{
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+.lista__con--item{
+    margin: 1rem 0;
+    font-weight: 300;
+}

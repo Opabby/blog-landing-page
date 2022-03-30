@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/conteudo.css">
+    <link rel="stylesheet" href="./css/rodape.css">
   </head>
   <body>
     <header class="cabecalho">
       <section class="cabecalho__background--img">
         <div class="cabecalho__header">
             <img class="cabecalho__logo--img" src="./images/logo.svg">
-            <img class="cabecalho__menu--icon" src="./images/icon-hamburger.svg">
+            <button class="cabecalho__menu--bttn"><img class="cabecalho__menu--icon" src="./images/icon-hamburger.svg"></button>
+        </div>
+        <div class="menu">
+
         </div>
         <div class="cabecalho__textos">
           <h1 class="cabecalho__textos--titulo">A modern publishing platform</h1>
@@ -62,27 +66,33 @@
     </main>
     <footer class="rodape">
       <img class="rodape__logo" src="./images/logo.svg">
-      <h3 class="lista__title">Product</h3>
-      <ul class="lista__prod">
-        <li class="lista__prod--item">Overview</li>
-        <li class="lista__prod--item">Pricing</li>
-        <li class="lista__prod--item">Marketplace</li>
-        <li class="lista__prod--item">Features</li>
-        <li class="lista__prod--item">Integrations</li>
-      </ul>
-      <h3 class="lista__title">Company</h3>
-      <ul class="lista__comp">
-        <li class="lista__comp--item">About</li>
-        <li class="lista__comp--item">Team</li>
-        <li class="lista__comp--item">Blog</li>
-        <li class="lista__comp--item">Careers</li>
-      </ul>
-      <h3 class="lista__title">Connect</h3>
-      <ul class="lista__con">
-        <li class="lista__con--item">Contact</li>
-        <li class="lista__con--item">Newsletter</li>
-        <li class="lista__con--item">LinkedIn</li>
-      </ul>
+      <div class="lista">
+        <h3 class="lista__title">Product</h3>
+        <ul class="lista__prod">
+          <li class="lista__prod--item">Overview</li>
+          <li class="lista__prod--item">Pricing</li>
+          <li class="lista__prod--item">Marketplace</li>
+          <li class="lista__prod--item">Features</li>
+          <li class="lista__prod--item">Integrations</li>
+        </ul>
+      </div>
+      <div class="lista">
+        <h3 class="lista__title">Company</h3>
+        <ul class="lista__comp">
+          <li class="lista__comp--item">About</li>
+          <li class="lista__comp--item">Team</li>
+          <li class="lista__comp--item">Blog</li>
+          <li class="lista__comp--item">Careers</li>
+        </ul>
+      </div>
+      <div class="lista">
+        <h3 class="lista__title">Connect</h3>
+        <ul class="lista__con">
+          <li class="lista__con--item">Contact</li>
+          <li class="lista__con--item">Newsletter</li>
+          <li class="lista__con--item">LinkedIn</li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

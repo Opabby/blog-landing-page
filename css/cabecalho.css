@@ -21,6 +21,16 @@
     width: 5rem;
 }
 
+.cabecalho__menu--bttn{
+    border: none;
+    background: transparent;
+}
+
+.menu{
+    display: block;
+    position: absolute;
+}
+
 .cabecalho__textos{
     color: var(--white-text);
     text-align: center;
@@ -67,4 +77,14 @@
     color: var(--white-text);
     font-weight: 600;
     font-size: 14px;
+}
+
+.cabecalho__buttons--start:active {
+    background-color: var(--white-text);
+    color: var(--light-red);
+}
+
+.cabecalho__buttons--learn:active{
+    background-color: var(--white-text);
+    color: var(--light-red);
 }
