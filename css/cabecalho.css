@@ -11,7 +11,7 @@
 }
 
 .cabecalho__header{
-    margin: 3rem 2rem;
+    margin: 3rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,27 +23,92 @@
 
 .botao__menu--hamburguer{
     padding: 1rem;
-}
+}  
 
-.botao__menu--img {
-    
-}
 
 .check {
     display: none;
 }
 
 .menu__toggle {
-    /* display: none; */
+    transition: .50s;
+    display: flex;
     background-color: var(--white-text);
     padding: 0;
-    width: 90%;
-    top: 7rem;
     position: absolute;
     list-style: none;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    width: 90%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 100px black;
+    right: -100%;
+    top: 8rem;
+}
+
+.menu__toggle--item{
+    font-size: 20px;
+    line-height: 3rem;
+    font-weight: 600;
+    color: var(--very-dark-gray-blue);
+}
+
+.menu__toggle--inception{
+    background-color: rgb(238, 236, 236);
+    padding: 1.5rem 6rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu__inception--items {
+    margin-bottom: 1rem;
+    color: var(--very-dark-desaturated-blue);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu__inception--items:last-child{
+    margin-bottom: 0;
+}
+
+.linhazinha{
+    margin: 2rem 0;
+    width: 16rem;
+}
+
+.button__login{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--very-dark-gray-blue);
+    border: none;
+    background: transparent;
+    margin-bottom: 2rem;
+}
+
+.button__signup{
+    font-size: 20px;
+    line-height: 3rem;
+    font-weight: 600;
+    color: var(--white-text);
+    border: none;
+    background: linear-gradient(var(--glightred), var(--gdarkred));
+    border-radius: 50px;
+    width: 7.75rem;
+    margin-bottom: 2rem;
+}
+
+.button__signup:active{
+    background: var(--white-text);
+    color: var(--light-red);
+    border: 1px solid var(--light-red);
+}
+
+.check:checked + .menu__toggle {
+    right: 0;
+    
 }
 
 .menu{
@@ -66,7 +131,6 @@
 .cabecalho__textos--definition{
     margin: 2rem 3rem;
 }
-
 
 .cabecalho__buttons{
     margin: 2rem 3rem;
