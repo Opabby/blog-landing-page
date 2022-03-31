@@ -14,11 +14,21 @@
     <header class="cabecalho">
       <section class="cabecalho__background--img">
         <div class="cabecalho__header">
-            <img class="cabecalho__logo--img" src="./images/logo.svg">
-            <button class="cabecalho__menu--bttn"><img class="cabecalho__menu--icon" src="./images/icon-hamburger.svg"></button>
-        </div>
-        <div class="menu">
-
+          <img class="cabecalho__logo--img" src="./images/logo.svg">
+          <label for="check" class="botao__menu--hamburguer"><img class="botao__menu--img" src="./images/icon-hamburger.svg"></label>
+          <input type="checkbox" class="check" id="check" aria-label="Menu">
+            <ul class="menu__toggle">
+              <li class="menu__toggle--item">Product</li>
+              <li class="menu__toggle--item">Company</li>
+              <li class="menu__toggle--item">Connect</li>
+              <ul>
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </ul>
+              <li><button>Login</button></li>
+              <li><button>Sign Up</button></li>
+            </ul>
         </div>
         <div class="cabecalho__textos">
           <h1 class="cabecalho__textos--titulo">A modern publishing platform</h1>

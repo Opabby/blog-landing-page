@@ -21,14 +21,35 @@
     width: 5rem;
 }
 
-.cabecalho__menu--bttn{
-    border: none;
-    background: transparent;
+.botao__menu--hamburguer{
+    padding: 1rem;
+}
+
+.botao__menu--img {
+    
+}
+
+.check {
+    display: none;
+}
+
+.menu__toggle {
+    /* display: none; */
+    background-color: var(--white-text);
+    padding: 0;
+    width: 90%;
+    top: 7rem;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu{
     display: block;
     position: absolute;
+    color: var(--very-dark-gray-blue);
 }
 
 .cabecalho__textos{
