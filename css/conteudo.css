@@ -103,6 +103,69 @@
 } 
 
 @media screen and (min-width: 1024px){
+    .mobile{
+        display: none;
+    }
 
+    .editor{
+        background-image: url(../images/illustration-editor-desktop.svg);
+        background-position: 125% 30%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        padding-bottom: 4rem;
+        height: auto;
+    }
 
+    .editor__title{
+        font-size: 2rem;
+    }
+
+    .editor__texts{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 50vw;
+        margin-left: 8rem;
+    }
+
+    .introduction{
+        margin: 1.5rem 0;
+    }
+
+    .introduction__title{
+        font-weight: 600;
+        margin-left: 0;
+    }
+
+    .introduction__text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .description__title{
+        font-weight: 600;
+        margin-left: 0;
+    }
+
+    .description__text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .sobre__card--cell{
+        width: 30rem;
+        margin-left: 0rem;
+        margin-right: 50vw;
+        margin-bottom: -28rem;
+    }
+
+    .sobre__card--title {
+        margin: 0;
+        margin-left: 50vw;
+    }
+    .sobre__card--text{
+        margin: 0;
+        margin-left: 50vw;
+        margin-bottom
+    }
 }
